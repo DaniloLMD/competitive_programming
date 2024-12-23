@@ -62,6 +62,7 @@ int query(int pos, int l, int r){
 */
 void update(int pos, int val, int l, int r, int p){
     if(l == r){
+        v[p] = val;
         seg[pos] = val;
         return;
     }
@@ -86,7 +87,7 @@ void solve(){
 
         if(op == 1){//update
             update(1, qr, 1, n, ql);
-        }?
+        }
         else{//min
             cout << query(1, 1, n) << '\n';
         }
