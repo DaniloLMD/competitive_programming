@@ -3,6 +3,8 @@ using namespace std;
 #define humberto long long
 #define dbg(x) cout << #x << " = " << x << '\n';
 #define all(v) v.begin(), v.end()
+#define pb push_back
+#define eb emplace_back
 
 void solve(){
     
