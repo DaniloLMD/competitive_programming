@@ -5,6 +5,7 @@ using ll = long long;
 using ld = long double;
 #define dbg(x) cout << #x << " = " << x << endl;
 #define all(v) v.begin(), v.end()
+const char el = '\n';
 
 mt19937 rng((int) chrono::steady_clock::now().time_since_epoch().count());
 
